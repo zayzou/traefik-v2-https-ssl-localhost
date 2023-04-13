@@ -19,6 +19,10 @@ log:
   level: INFO
   format: common
 
+accessLog :
+  {}
+
+
 entryPoints:
   http:
     address: ":80"
